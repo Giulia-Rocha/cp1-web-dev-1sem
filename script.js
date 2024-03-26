@@ -120,7 +120,7 @@ for(let i =0; i<7;i++)
 }*/
 
 
-//EX07 AINDA A FAZER
+//EX07 
 
 
 /*
@@ -133,3 +133,14 @@ document.write("Curso: " + Curso+ "<br>");
 let ano = parseInt(prompt("Digite o ano:"));
 document.write("Ano: "+ ano+"<br>");
 */
+
+//EX08 
+
+
+let texto =`Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.`
+
+
+console.log(texto.indexOf("em"));
+console.log(texto.lastIndexOf("ia"));
+console.log(texto.indexOf("ciência"));
+console.log(texto.indexOf("métodos"));
