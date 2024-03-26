@@ -41,3 +41,25 @@ let h = 10;
 console.log(g >= h);
 console.log(h >= g);
 */
+
+//EX03
+
+
+/*
+let peso = parseFloat(prompt("Digite o seu peso:"));
+let altura = parseFloat(prompt("Digite a sua altura:"))
+
+let imc = peso / (altura * altura)
+
+let calculo;
+if (imc < 18.5) {
+    calculo = "abaixo do peso";
+} else if (imc >= 18.5 && imc <= 24,9) {
+    calculo = "com o peso ideal"
+} else {
+    calculo = "acima do peso"
+}
+
+alert("seu IMC é " + imc.toFixed(2) + " voce esta " + calculo + ".")
+
+*/
