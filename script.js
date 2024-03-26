@@ -1,6 +1,6 @@
 //EX01
 
-/*
+
 //VARIAVEL COM VALOR UNDEFINED
 let nome;
 console.log(nome);
@@ -14,11 +14,11 @@ console.log(vazio);
 //VARIAVEL COM VALOR
 let valor = "10";
 console.log(valor);
-*/
+
 
 //EX02
 
-/*
+
 //OPERADOR !
 let a = 10;
 let b = 5;
@@ -40,12 +40,12 @@ let g = 14;
 let h = 10;
 console.log(g >= h);
 console.log(h >= g);
-*/
+
 
 //EX03
 
 
-/*
+
 let peso = parseFloat(prompt("Digite o seu peso:"));
 let altura = parseFloat(prompt("Digite a sua altura:"))
 
@@ -62,12 +62,12 @@ if (imc < 18.5) {
 
 alert("seu IMC é " + imc.toFixed(2) + " voce esta " + calculo + ".")
 
-*/
+
 
 //EX04
 
 
-/*
+
 let idade = parseInt(prompt("Digite sua idade:"))
 
 if (idade <= 12) {
@@ -79,13 +79,13 @@ if (idade <= 12) {
 } else {
     alert("Voce é idoso")
 }
-*/
+
 
 //EX05
 
 
 
-/*
+
 let usuario = prompt("Digite o nome de usuario:");
 let senha = prompt("Digite sua senha:");
 
@@ -94,11 +94,11 @@ if (usuario == "admin" && senha == "1234") {
 } else {
     alert("Cadastro nao aceito")
 }
-*/
+
 
 //EX06
 
-/*
+
 let soma =0;
 let notas = [];
 for(let i=0; i<7;i++){
@@ -108,35 +108,37 @@ for(let i=0; i<7;i++){
 
 let media = soma/7
 
+for(let i =0; i<7;i++)
+{
+    console.log(`Nota ${i+1}:`, notas[i]);
+}
+
 if (media >= 6) {
     console.log(`Voce foi aprovado com media ${media.toFixed(2)}`);
 } else {
     console.log(`Voce foi reprovado com media ${media.toFixed(2)}`);
 }
 
-for(let i =0; i<7;i++)
-{
-    console.log(`Nota ${i+1}:`, notas[i]);
-}*/
+
 
 
 //EX07 
 
 
-/*
-let nome = prompt("Digite seu nome: ");
-document.write("Nome: " + nome + "<br>");
-let idade = parseInt(prompt("Digite sua idade:"));
-document.write("Idade: " + idade+"<br>");
+
+let nome2 = prompt("Digite seu nome: ");
+document.write("Nome: " + nome2 + "<br>");
+let idade2 = parseInt(prompt("Digite sua idade:"));
+document.write("Idade: " + idade2+"<br>");
 let Curso = prompt("Digite seu curso:");
 document.write("Curso: " + Curso+ "<br>");
 let ano = parseInt(prompt("Digite o ano:"));
 document.write("Ano: "+ ano+"<br>");
-*/
+
 
 //EX08 
 
-/*
+
 let texto =`Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.`
 
 
@@ -144,15 +146,13 @@ console.log(texto.indexOf("em"));
 console.log(texto.lastIndexOf("ia"));
 console.log(texto.indexOf("ciência"));
 console.log(texto.indexOf("métodos"));
-*/
+
 
 //EX09
 
-/*9 -Crie um programa que declare a variável como String depois converta para 
-float e em seguida apresente o tipo da variáve
-*/
 
-/*
+
+
 let texString = "123.456";
 let nunFloat = parseFloat(texString);
-console.log(typeof nunFloat);*/
+console.log(typeof nunFloat);
