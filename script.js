@@ -63,3 +63,20 @@ if (imc < 18.5) {
 alert("seu IMC é " + imc.toFixed(2) + " voce esta " + calculo + ".")
 
 */
+
+//EX04
+
+
+/*
+let idade = parseInt(prompt("Digite sua idade:"))
+
+if (idade <= 12) {
+    alert("voce é crianca")
+} else if (idade >= 13 && idade <= 18) {
+    alert("voce é adolescente")
+} else if (idade >= 19 && idade <= 60) {
+    alert("voce é adulto")
+} else {
+    alert("Voce é idoso")
+}
+*/
