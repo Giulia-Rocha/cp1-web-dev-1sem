@@ -80,3 +80,18 @@ if (idade <= 12) {
     alert("Voce é idoso")
 }
 */
+
+//EX05
+
+
+
+/*
+let usuario = prompt("Digite o nome de usuario:");
+let senha = prompt("Digite sua senha:");
+
+if (usuario == "admin" && senha == "1234") {
+    alert("Cadastro realizado")
+} else {
+    alert("Cadastro nao aceito")
+}
+*/
