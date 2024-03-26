@@ -136,7 +136,7 @@ document.write("Ano: "+ ano+"<br>");
 
 //EX08 
 
-
+/*
 let texto =`Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.`
 
 
@@ -144,3 +144,15 @@ console.log(texto.indexOf("em"));
 console.log(texto.lastIndexOf("ia"));
 console.log(texto.indexOf("ciência"));
 console.log(texto.indexOf("métodos"));
+*/
+
+//EX09
+
+/*9 -Crie um programa que declare a variável como String depois converta para 
+float e em seguida apresente o tipo da variáve
+*/
+
+/*
+let texString = "123.456";
+let nunFloat = parseFloat(texString);
+console.log(typeof nunFloat);*/
