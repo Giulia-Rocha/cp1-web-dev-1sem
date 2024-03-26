@@ -118,3 +118,18 @@ for(let i =0; i<7;i++)
 {
     console.log(`Nota ${i+1}:`, notas[i]);
 }*/
+
+
+//EX07 AINDA A FAZER
+
+
+/*
+let nome = prompt("Digite seu nome: ");
+document.write("Nome: " + nome + "<br>");
+let idade = parseInt(prompt("Digite sua idade:"));
+document.write("Idade: " + idade+"<br>");
+let Curso = prompt("Digite seu curso:");
+document.write("Curso: " + Curso+ "<br>");
+let ano = parseInt(prompt("Digite o ano:"));
+document.write("Ano: "+ ano+"<br>");
+*/
