@@ -95,3 +95,26 @@ if (usuario == "admin" && senha == "1234") {
     alert("Cadastro nao aceito")
 }
 */
+
+//EX06
+
+/*
+let soma =0;
+let notas = [];
+for(let i=0; i<7;i++){
+    notas[i] = parseFloat(prompt(`Informe a nota ${i+1}:`));
+    soma+= notas[i];
+}
+
+let media = soma/7
+
+if (media >= 6) {
+    console.log(`Voce foi aprovado com media ${media.toFixed(2)}`);
+} else {
+    console.log(`Voce foi reprovado com media ${media.toFixed(2)}`);
+}
+
+for(let i =0; i<7;i++)
+{
+    console.log(`Nota ${i+1}:`, notas[i]);
+}*/
